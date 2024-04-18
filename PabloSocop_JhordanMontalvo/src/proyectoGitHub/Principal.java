@@ -1,5 +1,7 @@
 package proyectoGitHub;
 
+import java.util.Scanner;
+
 public class Principal {
 
 	public static void main(String[] args) {
@@ -9,6 +11,11 @@ public class Principal {
 		Programado2 metodo1=new Programado2();
 		
 		System.out.println(metodo1.suma(num1, num2));
+		 Scanner scanner = new Scanner(System.in);
+
+	        System.out.println("Introduce un número:");
+	        int numero = scanner.nextInt();
+	        Clase_Programador1.encontrarDivisores(numero);     
 	}
 
 }
